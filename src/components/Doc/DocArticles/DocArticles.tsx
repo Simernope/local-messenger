@@ -214,7 +214,7 @@ const DocArticles: FC<DocArticlesProps> = ({activeArticle, setActiveArticle}) =>
                                     </li>
 
                                     <li>
-                                        <mark>getRepliedMessage(React.Dispatch{`<React.SetStateAction<IMessage | undefined>>)`}:</mark>
+                                        <mark>getRepliedMessage</mark>
                                         функция, которая устанавливает сообщение, на которое пользователь отвечает.
                                     </li>
 

@@ -11,14 +11,17 @@ const MainPage: FC = () => {
     return (
         <div className={`container ${styles.container}`}>
             <Modal isActive={isModalActive} setIsModalOpen={setIsModalActive}/>
+            <div className={`d-md-none`}>
+                    <DocNav activeArticle={activeArticle} setActiveArticle={setActiveArticle}/>
+            </div>
             <div className={`row align-items-start`}>
-                <div className={`col-2 `}>
+                <div className={`col-md-2 d-sm-none d-none d-md-block`}>
                     <div className={`position-fixed`}>
                         <DocNav activeArticle={activeArticle} setActiveArticle={setActiveArticle}/>
                     </div>
 
                 </div>
-                <div className={`col-10 `}>
+                <div className={`col-md-10 col-sm-12`}>
                     <DocArticles activeArticle={activeArticle} setActiveArticle={setActiveArticle}/>
                 </div>
             </div>
