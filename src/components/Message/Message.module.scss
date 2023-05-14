@@ -1,0 +1,63 @@
+.specializedMessage{
+  .specializedMessageDivider{
+    border-bottom: 1px solid #E9ECEF;
+  }
+  .specializedMessageTime{
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+
+
+.messageContainer{
+  .circleContainer{
+    width: 30px;
+    .circle{
+      width: 25px;
+      height: 25px;
+      background: #6C757D;
+      border-radius: 50%;
+      font-weight: 400;
+      font-size: 15px;
+      color: #fff;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+
+  .message{
+    .messageText{
+      background: #F8F9FA;
+      border-radius: 5px;
+      font-weight: 400;
+      font-size: 15px;
+      overflow: hidden;
+      font-family: 'Roboto', system-ui;
+      font-style: normal;
+      line-height: 24px;
+      .forwardedMessage{
+        border-left: 2px solid #ADB5BD;
+        .forwardedMessageData{
+          .forwardedMessageName{
+            font-weight: 500;
+            font-size: 12px;
+          }
+          .forwardedMessageText{
+            font-weight: 400;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    .messageSender{
+      .name{
+        font-weight: 500;
+        font-size: 12px;
+      }
+      .time{
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+  }
+}

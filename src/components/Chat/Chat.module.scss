@@ -1,0 +1,55 @@
+.chatContainer {
+  border: 2px solid #E9ECEF;
+  border-radius: 5px;
+
+  .chatHeader {
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-bottom: 1px solid #DEE2E6;
+    position: relative;
+
+
+    .toAllChatLink {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+
+      .linkStyles {
+        color: inherit;
+        text-decoration: inherit
+      }
+    }
+
+    .chatTitle {
+      .title {
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .users {
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .messagesContainer {
+    height: 60vh;
+    overflow-y: scroll;
+
+    .emojiPanel {
+      width: 350px;
+      height: 350px;
+      background: lightcyan;
+      z-index: 1000;
+
+      margin-bottom: 50px;
+
+    }
+    .emojiPanelWithReplied{
+      margin-bottom: 116px;
+    }
+  }
+
+}
